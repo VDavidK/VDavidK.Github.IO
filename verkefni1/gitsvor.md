@@ -1,3 +1,4 @@
+# þetta er 1. grein
 Hvað gera eftirfarandi Linux skipanir?
 cd - Change directory
 ls - List
