@@ -18,5 +18,9 @@ Hvað er útgáfustýring (Version Control)?
 Sýnir allar breytingar og gefur manni val um að skipta yfir í gamla útgáfu
 
 Hverjir eru helstu kostir við að nota GIT?
+Þú getur opnað og vistað skrár í hvaða tölvu sem er svo lengi sem þú hefur aðgang að GIT
+
 Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+Rosalega. Oft.
+
 Hvað er átt við með "Working Directory"?" og "Staging Area" í GIT?
