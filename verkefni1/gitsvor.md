@@ -1,5 +1,6 @@
 Hvað gera eftirfarandi Linux skipanir?
-cd -
-ls -
-pwd -
-mkdir -
+cd - Change directory
+ls - List
+pwd - Print Working Directory
+mkdir - Make Directory
+
