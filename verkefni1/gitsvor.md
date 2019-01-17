@@ -10,6 +10,6 @@ git status - Sýnir breytingar sem á eftir að commit-a
 git diff - Sýnir conflicts
 
 Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
-git log 
-git checkout
-git branch
+git log - Sýnir commit ID
+git checkout - Skiptir um branch eða býr til nýjann
+git branch - Sýnir alla branches og þann sem þú ert í
