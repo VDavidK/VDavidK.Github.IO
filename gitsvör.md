@@ -1,3 +1,5 @@
+# Fyrsta grein
+
 1. Hvað gera eftirfarandi Linux skipanir?
 
 cd - Change directory - Breytir hvar þú ert að leita.
