@@ -1,0 +1,9 @@
+body { max-width: 50em; margin: 0 auto; padding-top: 1em; }
+
+h1 { color: blue; }
+
+.current { color: red; }
+
+nav a { border-right: 1px solid red; padding: .2em 1em; text-decoration: none; background-color: #eee; }
+
+/*# sourceMappingURL=styles.css.map */
