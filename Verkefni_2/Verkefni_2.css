@@ -1,0 +1,39 @@
+body{
+    background-color: #E5E4E3;
+}
+
+.stjarna{
+    fill: #E5E4E3;
+    stroke: red;
+    stroke-width: 5px;
+}
+
+@keyframes snu{
+    30% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.starSt {
+    animation: starStroke 4s, starFill 1.4s, snu 6s, fadeOut 7s;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation-fill-mode: forwards;
+    transform-origin: 110px 110px;
+}
+
+@keyframes starStroke {
+    0%   { stroke-dashoffset: 1000; }
+    100% { stroke-dashoffset: 0; }
+}
+
+@keyframes starFill {
+    80% {fill: #E5E4E3;}
+    100% {fill: orange;}
+}
+
+@keyframes fadeOut{
+    90% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
