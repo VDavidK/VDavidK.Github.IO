@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Verkefni4.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Grunnám Tölvubrautar</caption>
+        <thead>
+            <tr> 
+                <th scope="col">Önn</th>
+                <th scope="col">Forritun</th>
+                <th scope="col">Vefþróun</th>
+                <th scope="col">Gagnasöfnun</th>
+                <th scope="col">Tölvutækni</th>
+            </tr>
+            <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.
+            Note: The scope attribute has no visual effect in ordinary web browsers, but can be used by screen readers. -->
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row" data-label="Önn">1. Önn</td>
+                <td data-label="Forritun">FORR1FG05(AU)</td>
+                <td data-label="Vefhönnun">VEFÞ1VG05(AU)</td>
+                <td data-label="Gagnasöfnun">GAGN1NG05(AU)</td>
+                <td data-label="Tölvutækni">KEST1TR05(AU)</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Önn">2. Önn</td>
+                <td data-label="Forritun">FORR2FA05(BU)</td>
+                <td data-label="Vefhönnun">VEFÞ2VG05(BU)</td>
+                <td data-label="Gagnasöfnun">GAGN2HS05(BU)</td>
+                <td data-label="Tölvutækni">KEST2VJ05(BU)</td>
+            </tr>
+            <tr>
+                <td scope="row" data-label="Önn">3. Önn</td>
+                <td data-label="Forritun">FORR2HF05(CU)</td>
+                <td data-label="Vefhönnun">VEFÞ2VF05(CU)</td>
+                <td data-label="Gagnasöfnun">GAGN2VG05(CU)</td>
+                <td data-label="Tölvutækni">KEST2UN05(CU)</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <form class="Form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" minlength="3" name="name" placeholder="Jón Jónsson" required>
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phonenum" minlength="7" maxlength="7" pnum="phonenum" placeholder="555-1234" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="person@email.gov" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        <div class="checkboxes">
+            Year:
+            <input type="checkbox" id="manyear" name="manyear">
+            <label for="manyear">1965</label>
+            <input type="checkbox" id="manyear" name="manyear">
+            <label for="manyear">1985</label>
+        </div>
+        <div class="radiobutts">
+            Color:
+            <input type="radio" id="color" name="color" required>
+            <label for="color">Red</label>
+            <input type="radio" id="color" name="color">
+            <label for="color">Black</label>
+        </div>
+        <label for="name">Additional Info:</label>
+        <textarea id="addinfo" name="Form" placeholder="Lorem Ipsum..."></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
