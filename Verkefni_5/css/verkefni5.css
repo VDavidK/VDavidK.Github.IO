@@ -1,0 +1,223 @@
+/* Texti */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    margin     : .5em 0;
+
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size  : 2.0em;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size  : 1.6em;
+    line-height: 1.6;
+}
+
+h3 {
+    font-size  : 1.3em;
+    line-height: 1.6;
+}
+
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    border          : 1px solid black;
+    margin          : 0;
+    font-size       : 1em;
+    line-height     : 1.6;
+    font-weight     : 400;
+    font-family     : 'Raleway', serif;
+    color           : #222;
+    background-color: lightgrey;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.welcome {
+    text-transform: uppercase;
+    margin        : 0 auto;
+    max-width     : 50%;
+}
+
+.headline {
+    width          : 75%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    vertical-align : middle;
+}
+
+.sidebar1 {
+    width           : 12.5%;
+    background-color: rgb(23, 125, 140);
+}
+
+.sidebar2 {
+    width           : 12.5%;
+    background-color: rgb(20, 149, 118);
+}
+
+figure,
+.scaleimg {
+    text-align: center;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    display      : grid;
+    grid-gap     : 1em;
+    justify-items: center;
+    border       : 1px solid black;
+}
+
+.topnav {
+    display              : grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align           : center;
+    border               : 1px dotted black;
+    text-transform       : uppercase;
+    background-color     : rgb(23, 125, 140);
+    padding              : 10px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color          : rgb(158, 232, 245);
+    text-decoration: none;
+}
+
+a:hover {
+    color           : rgb(70, 86, 88);
+    background-color: rgb(170, 221, 230);
+}
+
+.col-1 {
+    grid-gap  : 0;
+    display   : flex;
+    min-height: 25em;
+    margin    : auto;
+}
+
+.col-2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.scaleimg,
+.Form {
+    align-self: center;
+    text-align: center;
+}
+
+.col-3 {
+    grid-template-columns: repeat(4, 1fr);
+    margin               : auto;
+}
+
+.tafla {
+    align-self: center;
+}
+
+.container {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even),
+th {
+    background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: silver;
+}
+
+table {
+    border-collapse: collapse;
+    align-content  : center;
+    margin         : 0 auto;
+}
+
+.button,
+input[type="button"] {
+    display         : inline-block;
+    height          : 2.3em;
+    padding         : 2px 30px;
+    color           : #555;
+    text-align      : center;
+    font-size       : .8em;
+    line-height     : 2em;
+    letter-spacing  : .1em;
+    text-transform  : uppercase;
+    text-decoration : none;
+    background-color: transparent;
+    border-radius   : 4px;
+    border          : 3px solid #bbb;
+    cursor          : pointer;
+    box-sizing      : border-box;
+}
+
+p {
+    text-align: center;
+}
+
+thead,
+tbody {
+    border: 1px solid black;
+}
+
+td {
+    padding  : 10px;
+    font-size: 20px;
+}
+
+textarea {
+    width : 95%;
+    height: 50px;
+}
+
+.buttdiv {
+    text-align: center;
+    padding   : 10px;
+}
+
+@media screen and (max-width: 48em) {
+    .topnav {
+        width: 100%;
+    }
+
+    .sidebar1,
+    .sidebar2 {
+        display: none;
+    }
+
+    .headline {
+        width: 100%;
+    }
+
+    .col-1,
+    .col-3,
+    .col-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
