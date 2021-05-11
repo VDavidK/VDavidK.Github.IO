@@ -1,0 +1,367 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #4d5b7d;
+    font-family: 'Raleway', serif;
+}
+
+/* Navbar */
+
+a, a:hover, a:enabled, a:disabled, a:active {
+    text-decoration: none;
+    color: #081b44;
+}
+
+input[type=checkbox].hidden {
+    display: none;
+}
+
+h6, .hamburgermenu {
+    text-align: center;
+}
+
+label {
+    padding: 5px;
+    font-size: 22px;
+}
+
+/* Blocks */
+
+.gameinfo {
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.gametext {
+    padding: 5px;
+    background-color: #2c3e69;
+}
+
+.title {
+    font-size: 50px;
+    display: grid;
+    grid-template-rows: (1fr 1fr);
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.gamename {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+.review {
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+.video {
+    border-right: 2px solid black;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 400px;
+    text-align: left;
+}
+
+.col {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+}
+
+/* Logo */
+
+.logo {
+    padding: 60px;
+    animation: logoborder 4s, logofill 3s, logorotate 4s;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 2000;
+    animation-fill-mode: forwards;
+    justify-self: center;
+    width: 50%;
+    text-align: center;
+}
+
+.logoimg {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.jigsawgames {
+    color: #081b44;
+    padding-top: 25px;
+}
+
+/* Form */
+
+.Form {
+    border: 1px solid black;
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutus {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.ourpeople {
+    max-width: 100%;
+    max-height: 500px;
+    border: 1px solid black;
+}
+
+.Formclass {
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+textarea {
+    width: 80%;
+}
+
+.topbutt {
+    max-width: 5%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+/* Animations */
+
+@keyframes logoborder {
+    0% {
+        stroke-dashoffset: 2000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes logofill {
+    0% {
+        fill: none;
+    }
+    77% {
+        fill: none;
+    }
+    100% {
+        fill: #0d5b7d;
+    }
+}
+
+@keyframes logorotate {
+    0% {
+        transform: rotate(180deg);
+    }
+    70% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes topnavpulse {
+    0% {
+        color: #02091a;
+        background-color: #1649b6;
+        fill: #000000;
+    }
+    50% {
+        color: #1649b6;
+        background-color: #02091a;
+        fill: #1649b6;
+    }
+    100% {
+        color: #02091a;
+        background-color: #1649b6;
+        fill: #000000;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 37.5em) {
+    .hamburger {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .15s ease;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    input:checked~nav {
+        max-height: 500px;
+    }
+    ul {
+        list-style: none;
+        width: 60%;
+        text-align: center;
+        padding-inline-start: 0px;
+        margin: 0 auto;
+    }
+    label, ul {
+        border: 1px solid #cecfd5;
+        border-radius: 6px;
+    }
+    label {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 18px;
+        padding: 5px 9px;
+        transition: all .15s ease;
+    }
+    input, textarea {
+        margin: 15px;
+    }
+    input:checked+label {
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+        color: #9799a7;
+    }
+    li {
+        border-bottom: 1px solid #cecfd5;
+        min-height: 30px;
+        line-height: 30px;
+    }
+    li:last-child {
+        border-bottom: 0;
+    }
+    .topnav {
+        display: none;
+    }
+    .jigsawgames {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 15px;
+    }
+    .logoimg {
+        height: 100%;
+        width: 100%;
+    }
+    a {
+        color: #02091a;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 37.5em) {
+    .pictures {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hamburgermenu {
+        display: none;
+    }
+    a {
+        color: #02091a;
+        border: 1px solid black;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .topnav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-size: 20px;
+        min-height: 46px;
+        line-height: 46px;
+    }
+    svg {
+        padding-top: 20px;
+    }
+    .jigsawgames {
+        font-size: 3em;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 48em) {
+    /* Navbar */
+    .topnav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-size: 40px;
+    }
+    .hamburgermenu {
+        display: none;
+    }
+    a {
+        color: #02091a;
+        border: 1px solid black;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .jigsawgames {
+        font-size: 3em;
+    }
+    p {
+        font-size: 20px;
+    }
+    .gameinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    a:active, a:hover {
+        background-color: #1649b6;
+        animation: topnavpulse 4s;
+        animation-iteration-count: infinite;
+    }
+}
