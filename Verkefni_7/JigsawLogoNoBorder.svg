@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80.996765mm"
+   height="120.99691mm"
+   viewBox="0 0 80.996765 120.99691"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="JigsawLogoNoBorder.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1009"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1007" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="149.57975"
+     inkscape:cy="125.7421"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.379475,-49.016377)">
+    <path
+       id="rect833"
+       style="fill:#0d5b7d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.76819;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 0,0 V 123.51172 A 66.141737,66.141729 0 0 1 9.4492188,122.83398 66.141737,66.141729 0 0 1 75.589844,188.97656 66.141737,66.141729 0 0 1 9.4492188,255.11719 66.141737,66.141729 0 0 1 0,254.43945 v 123.51367 h 85.716797 a 66.14174,66.141732 0 0 0 -0.677735,9.44922 66.14174,66.141732 0 0 0 66.142578,66.14063 66.14174,66.141732 0 0 0 66.14063,-66.14063 66.14174,66.141732 0 0 0 -0.67774,-9.44922 h 85.7168 V 254.43945 a 66.141739,66.141731 0 0 1 -9.44727,0.67774 66.141739,66.141731 0 0 1 -66.14258,-66.14063 66.141739,66.141731 0 0 1 66.14258,-66.14258 66.141739,66.141731 0 0 1 9.44727,0.67969 V 0 H 210.94141 A 66.141738,66.14173 0 0 1 217.32227,28.345703 66.141738,66.14173 0 0 1 151.18164,94.488281 66.141738,66.14173 0 0 1 85.039062,28.345703 66.141738,66.14173 0 0 1 91.421875,0 Z"
+       transform="matrix(0.26458333,0,0,0.26458333,63.877975,49.514877)" />
+  </g>
+</svg>
